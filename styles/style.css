@@ -16,9 +16,16 @@
 /******************************************
   /* LAYOUT
   /*******************************************/
+html {
+  height: 100vh;
+}
 
 body {
+  height: 100%;
   background-color: hsl(226, 43%, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body h1,
@@ -28,6 +35,13 @@ h2 {
 body span {
   color: var(--text-span-color);
 }
+main {
+  display: flex;
+
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
 
 .workout-text {
   color: var(--main-text-color);
@@ -35,6 +49,23 @@ body span {
   font-weight: bolder;
 }
 
+.container {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  max-width: 50%;
+  border: 1px solid blanchedalmond;
+}
+
+.widget-card {
+  border: 1px solid blanchedalmond;
+  padding: 1rem;
+
+  margin: 1rem;
+
+  max-width: 25%;
+}
 /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
