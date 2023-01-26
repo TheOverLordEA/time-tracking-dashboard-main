@@ -51,6 +51,8 @@ main {
 .widget img {
   max-width: 41%;
   border: 1px solid white;
+
+  border-radius: 5rem;
 }
 
 .workout-text {
