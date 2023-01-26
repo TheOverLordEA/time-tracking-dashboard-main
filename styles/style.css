@@ -43,6 +43,16 @@ main {
   margin: 0 auto;
 }
 
+.widget {
+  margin-right: 1rem;
+  border: 1px solid burlywood;
+}
+
+.widget img {
+  max-width: 41%;
+  border: 1px solid white;
+}
+
 .workout-text {
   color: var(--main-text-color);
 
