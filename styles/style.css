@@ -43,6 +43,14 @@ main {
   margin: 0 auto;
 }
 
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid goldenrod;
+  margin-right: 1rem;
+}
+
 .workout-text {
   color: var(--main-text-color);
 
