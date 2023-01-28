@@ -46,13 +46,29 @@ main {
 .widget {
   margin-right: 1rem;
   border: 1px solid burlywood;
-}
 
+  border-radius: 1rem;
+  overflow: hidden;
+}
 .widget img {
-  max-width: 41%;
-  border: 1px solid white;
+  max-width: 30%;
+  border: 2px solid white;
 
   border-radius: 5rem;
+}
+
+.profile-wrap {
+  background: hsl(264, 64%, 52%);
+  min-height: 68%;
+}
+
+.daily-wrap {
+  background: hsl(235, 46%, 20%);
+  display: flex;
+
+  flex-direction: column;
+
+  min-height: 32%;
 }
 
 .workout-text {
