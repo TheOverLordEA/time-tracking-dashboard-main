@@ -82,15 +82,17 @@ main {
 
   flex-wrap: wrap;
 
+  gap: 1rem;
   max-width: 50%;
   border: 1px solid blanchedalmond;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .widget-card {
   border: 1px solid blanchedalmond;
   padding: 1rem;
-
-  margin: 1rem;
 
   max-width: 25%;
 }
