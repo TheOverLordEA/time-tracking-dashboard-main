@@ -35,6 +35,11 @@ h2 {
 body span {
   color: var(--text-span-color);
 }
+@font-face {
+  font-family: "Rubik";
+  src: url("https://fonts.google.com/specimen/Rubik");
+}
+
 main {
   display: flex;
 
@@ -46,9 +51,11 @@ main {
 .widget {
   margin-right: 1rem;
   border: 1px solid burlywood;
-
+  font-family: var(--font-primary-rubik);
+  background-color: hsl(235, 46%, 20%);
   border-radius: 1rem;
   overflow: hidden;
+  min-height: 500px;
 }
 .widget img {
   max-width: 30%;
@@ -60,6 +67,27 @@ main {
 .profile-wrap {
   background: hsl(264, 64%, 52%);
   min-height: 68%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.profile-image-wrap > img {
+  margin: 1rem;
+}
+
+.profile-user-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.profile-user-info h1 {
+  margin: 0;
+}
+
+.profile-user-info > h1,
+span {
+  margin-left: 1rem;
 }
 
 .daily-wrap {
