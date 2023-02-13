@@ -5,6 +5,7 @@
 :root {
   --main-text-color: rgb(255, 255, 255);
 
+  --widget-background-color: hsl(235, 46%, 20%);
   --text-span-color: rgb(185, 185, 179);
 }
 
@@ -46,7 +47,8 @@ main {
 .widget {
   margin-right: 1rem;
   border: 1px solid burlywood;
-
+  background: var(--widget-background-color);
+  min-height: 480px;
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -60,10 +62,32 @@ main {
 .profile-wrap {
   background: hsl(264, 64%, 52%);
   min-height: 68%;
+  display: flex;
+  flex-direction: column;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  gap: 1.5rem;
+}
+
+.profile-image-wrap {
+  padding-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.profile-user-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.profile-user-wrap > h1 {
+  margin: 0;
 }
 
 .daily-wrap {
-  background: hsl(235, 46%, 20%);
+  background: var(--widget-background-color);
   display: flex;
 
   flex-direction: column;
