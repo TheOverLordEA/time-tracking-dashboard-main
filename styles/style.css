@@ -175,13 +175,13 @@ span {
   background: hsl(235, 46%, 20%);
 }
 
-.bottom-box-items {
+.bottom-box-top-items {
   display: flex;
   align-items: center;
   padding-top: 0.5rem;
 }
 
-.bottom-box-items h3 {
+.bottom-box-top-items h3 {
   flex: 3;
 
   padding-left: 1rem;
