@@ -5,7 +5,6 @@
 :root {
   --main-text-color: rgb(255, 255, 255);
 
-  --widget-background-color: hsl(235, 46%, 20%);
   --text-span-color: rgb(185, 185, 179);
 }
 
@@ -49,7 +48,8 @@ main {
 .widget {
   margin-right: 1rem;
   border: 1px solid burlywood;
-  background: var(--widget-background-color);
+  font-family: "Rubik";
+  background-color: hsl(235, 46%, 20%);
   border-radius: 1rem;
   overflow: hidden;
   min-height: 500px;
@@ -96,7 +96,7 @@ span {
 }
 
 .daily-wrap {
-  background: var(--widget-background-color);
+  background: hsl(235, 46%, 20%);
   display: flex;
 
   justify-content: center;
@@ -196,7 +196,7 @@ span {
   padding: 1rem;
 
   max-width: 25%;
-}
+} */
 /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
