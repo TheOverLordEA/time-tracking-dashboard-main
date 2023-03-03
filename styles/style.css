@@ -191,12 +191,15 @@ span {
   flex: 1;
 }
 
-/* .widget-card {
-  border: 1px solid blanchedalmond;
-  padding: 1rem;
+.bottom-box-bottom-items h2 {
+  margin-bottom: 0.5rem;
+}
 
-  max-width: 25%;
-} */
+.bottom-box-bottom-items h2,
+span {
+  margin-left: 1rem;
+}
+
 /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
