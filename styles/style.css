@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Rubik", sans-serif;
 }
 
 body h1,
@@ -232,6 +233,8 @@ span {
   border: 1px solid white;
 }
 
+/* Media query for mobile viewport */
+
 @media (min-width: 320px) and (max-width: 480px) {
   body {
     height: auto;
@@ -240,10 +243,13 @@ span {
     flex-direction: column;
     width: 88%;
     height: 100%;
+
+    margin-top: 1rem;
   }
 
   .widget {
     min-height: 400px;
+    max-width: 280px;
   }
 
   .container {
@@ -262,12 +268,31 @@ span {
   .container {
     max-width: 88%;
   }
+  .bottom-box {
+    padding-bottom: 1rem;
+  }
 
   .widget-top,
   .widget-bottom {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-} /******************************************
+}
+
+@media (min-width: 800) and (max-width: 1080) {
+  body {
+    height: auto;
+  }
+
+  main {
+    width: 80%;
+    flex-direction: column;
+    height: 100%;
+
+    margin-top: 1rem;
+  }
+}
+
+/******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
