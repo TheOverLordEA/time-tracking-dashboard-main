@@ -48,7 +48,6 @@ main {
 
 .widget {
   margin-right: 1rem;
-  border: 1px solid burlywood;
   font-family: "Rubik";
   background-color: hsl(235, 46%, 20%);
   border-radius: 1rem;
